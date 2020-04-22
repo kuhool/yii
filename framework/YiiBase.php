@@ -42,6 +42,16 @@ defined('YII_PATH') or define('YII_PATH',dirname(__FILE__));
 defined('YII_ZII_PATH') or define('YII_ZII_PATH',YII_PATH.DIRECTORY_SEPARATOR.'zii');
 
 /**
+ * 框架中定义的所有常量：
+ * YII_BEGIN_TIME：开始时间戳
+ * YII_DEBUG：debug是否开启
+ * YII_TRACE_LEVEL：开启等级
+ * YII_ENABLE_EXCEPTION_HANDLER：框架来帮你处理异常情况
+ * YII_PATH：框架目录
+ * YII_ZII_PATH：zii前端的组建目录
+ */
+
+/**
  * YiiBase is a helper class serving common framework functionalities.
  *
  * Do not use YiiBase directly. Instead, use its child class {@link Yii} where
